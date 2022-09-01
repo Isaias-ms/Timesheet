@@ -1,4 +1,6 @@
-comecei a trabalhar: 8:25
-pausa para o almoço: 11:50
-retorno do almoço: 12:50
-final do expediente: 21:30
+morning: 7:10
+brb lunch: 12:30
+back: 13:10
+brb: 18:20
+back: 19:40
+leaving: 22:00
