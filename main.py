@@ -71,10 +71,19 @@ def cal():
         for c in range(0, len(minutos)):
             min1 = int(minutos[c][0])
             min2 = int(minutos[c][1])
-            clc = min1 + min2
+            #print(min1, min2)
+            if min1 == min2:
+                clc = 0
+            else:
+                if min1 > min2:
+                    min1 = 60 - min1
+                    calhora -= 1
+                clc = min1 + min2
+            #print(min1, min2)
             soma += clc
             #print(min1, min2)
         #print(soma)
+
 
         # Equilabrando os 60m para +1h.
         if soma >= 60:
@@ -82,7 +91,6 @@ def cal():
             calhora = calhora + div  # adicionando ás horas
             soma = soma % 60  # minutos que sobrar
             #print(div, calhora, soma)
-
         if soma == 0:
             return print(f"Horas Trabalhadas -> {calhora} horas.")
         else:

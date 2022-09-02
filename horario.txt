@@ -1,6 +1,8 @@
-morning: 7:10
-brb lunch: 12:30
-back: 13:10
-brb: 18:20
-back: 19:40
+morning: 8:00
+brb lunch: 12:00
+back: 13:00
+brb: 18:00
+back: 20:00
+brb: 21:00
+back: 22:00
 leaving: 22:00
